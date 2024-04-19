@@ -9,6 +9,7 @@ export default function CardTarjeta() {
             <div className="card-body">
                 <h4 className="card-title">Bartolo</h4>
                 <p className="card-text">Lleno de energía y listo para jugar. !Dale a Bartolo el hogar amoroso que se merece!</p>
+                <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
         </div>
     );
