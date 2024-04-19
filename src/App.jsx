@@ -1,12 +1,12 @@
 
 import './App.css'
-import Card from "./componentes/Card"
+import Cards from './componentes/Cards'
 
 function App() {
 
   return (
     <>
-      <Card />
+      <Cards />
 
     </>
   )
