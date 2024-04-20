@@ -3,12 +3,21 @@
     height: 100vh;
 }
 
-.App .detalle{
+.App body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.App div .detalle{
     width: 100%;
-    height: 70px;
+    margin: 0 30px;
+    padding: 0 50px;
 }
 
 .App .detalle .lista{
+    height: 50px;
+    padding: 0 50px;
     color: white;
     text-align: center;
     font-size:  1.2rem;
@@ -48,7 +57,13 @@
     width: 150px;
 }
 
-.App .piePagina{
-    
+.App .page-footer {
+    height: 50px;
+    background: #212529;
     color: antiquewhite;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    flex-grow: 1;
 }
