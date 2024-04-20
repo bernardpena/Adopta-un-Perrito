@@ -6,7 +6,7 @@ export default function Header() {
         <div>
             <nav className="cabecera">
                 <div className="tituloCabecera">
-                    <ha className="titulo">Adopta un Perrito</ha>
+                    <h1 className="titulo">Adopta un Perrito</h1>
                 </div>
             </nav>
         </div>

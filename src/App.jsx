@@ -4,11 +4,12 @@ import Header from './componentes/Header'
 import MyCard from './componentes/MyCard'
 import Reseña from './componentes/Reseña'
 import Footer from './componentes/Footer'
-
+// import { Tags2 } from './componentes/Tags';
 import Bartolo from './assets/perrito2.jpg'
 import Messi from './assets/perrito3.jpg'
 import Gohan from './assets/perrito4.jpg'
 import Princesa from './assets/perrito5.jpg'
+
 
 
 const cards = [
@@ -47,7 +48,7 @@ const cards = [
 ]
 
 function App() {
-
+  // const tags = Tags2();
   return (
     <div className='App' >
       <Header />
@@ -59,7 +60,11 @@ function App() {
                 <MyCard title={card.title} imagen={card.imagen} descripcion={card.descripcion} text={card.text} color={card.color} />
               </div>
             ))
-          }
+            // }{
+            //   tags.map(tag => (<MyCard key={tag.id} text={tag.text} color={tag.color} />))
+            // }
+          },
+
         </div>
       </div>
       <Reseña />

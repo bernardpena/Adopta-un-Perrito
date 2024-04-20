@@ -1,5 +1,4 @@
 
-// import Button from 'react-bootstrap/Button';
 
 export default function MyCard({ title, imagen, descripcion, text, color }) {
     return (

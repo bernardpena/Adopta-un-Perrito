@@ -9,20 +9,20 @@
 
 }
 
-.App div .detalle{
-    width: 100%;
-    margin: 0 30px;
-    padding: 0 50px;
+.App .titulo{
+    background: #212529;
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
-.App .detalle .lista{
-    height: 50px;
-    padding: 0 50px;
-    color: white;
-    text-align: center;
-    font-size:  1.2rem;
-    margin-top: 20px;
 
+.App .card{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .App .card:hover{
@@ -55,6 +55,21 @@
 
 .App .badge{
     width: 150px;
+}
+
+.App div .detalle{
+    width: 100%;
+    margin: 0 30px;
+    padding: 0 50px;
+}
+
+.App .detalle .lista{
+    height: 50px;
+    padding: 0 50px;
+    color: white;
+    text-align: center;
+    font-size:  1.2rem;
+    margin-top: 20px;
 }
 
 .App .page-footer {

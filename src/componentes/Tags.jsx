@@ -1,44 +1,26 @@
-import Badge from 'react-bootstrap/Badge';
-import Stack from 'react-bootstrap/Stack';
+export function Tags2() {
+    const tags = [
+        {
+            id: 1,
+            text: "Husky",
+            color: "badge text-bg-success"
+        },
+        {
+            id: 2,
+            text: "Labrador Retriever",
+            color: "badge text-bg-primary"
+        },
+        {
+            id: 3,
+            text: "Golden Retriever",
+            color: "badge text-bg-danger"
+        },
+        {
+            id: 4,
+            text: "French Bulldog",
+            color: "badge text-bg-warning"
+        }
+    ];
 
-const tags = [
-    {
-        id: 1,
-        text: "Husky",
-        color: "success"
-    },
-    {
-        id: 2,
-        text: "Labrador Retriever",
-        color: "Primary"
-    },
-    {
-        id: 3,
-        text: "Golden Retriever",
-        color: "Danger"
-    },
-    {
-        id: 4,
-        text: "French Bulldog",
-        color: "Warning"
-    }
-]
-
-export default function Tags() {
-    return (
-        <Stack direction="horizontal" gap={2}>
-            <Badge bg="primary">Primary</Badge>
-            <Badge bg="secondary">Secondary</Badge>
-            <Badge bg="success">Success</Badge>
-            <Badge bg="danger">Danger</Badge>
-            <Badge bg="warning" text="dark">
-                Warning
-            </Badge>
-            <Badge bg="info">Info</Badge>
-            <Badge bg="light" text="dark">
-                Light
-            </Badge>
-            <Badge bg="dark">Dark</Badge>
-        </Stack>
-    );
+    return tags;
 }
