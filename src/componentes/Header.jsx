@@ -1,7 +1,7 @@
-import React from 'react'
-import "./style/HeaderSuperior.css"
 
-export default function HeaderSuperior() {
+import "./style/Header.css"
+
+export default function Header() {
     return (
         <div>
             <nav className="cabecera">
