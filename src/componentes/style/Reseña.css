@@ -1,0 +1,10 @@
+  div .lista{
+    display: flex;
+    background-color: aliceblue;
+ }
+
+ p .lista{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}

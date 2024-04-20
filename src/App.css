@@ -2,3 +2,53 @@
     background: linear-gradient(180deg, #1CB5E0 0%, #000851 100%);
     height: 100vh;
 }
+
+.App .detalle{
+    width: 100%;
+    height: 70px;
+}
+
+.App .detalle .lista{
+    color: white;
+    text-align: center;
+    font-size:  1.2rem;
+    margin-top: 20px;
+
+}
+
+.App .card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273)!important;
+    transition: all 0.5s linear;
+}
+
+.App .card-body{
+    padding: 2rem 0 !important;
+}
+
+.App .card-text{
+    height: 150px;
+    padding: 0.3rem 1rem;
+    font-size:1rem ;
+}
+
+.App .overflow{
+    overflow: hidden;
+}
+
+.App .card-img-top{
+    transition: all 0.3s ease-in-out;
+}
+
+.App .card-img-top:hover{
+    transform: scale(1.8);
+    transition: all 0.5s linear;
+}
+
+.App .badge{
+    width: 150px;
+}
+
+.App .piePagina{
+    
+    color: antiquewhite;
+}
