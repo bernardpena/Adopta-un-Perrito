@@ -1,3 +1,5 @@
+import React from "react";
+
 
 
 export default function MyCard({ title, imagen, descripcion, text, color }) {

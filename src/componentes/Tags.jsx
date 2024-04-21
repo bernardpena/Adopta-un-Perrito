@@ -1,3 +1,6 @@
+import React from "react";
+
+I
 export function Tags2() {
     const tags = [
         {

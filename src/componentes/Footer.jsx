@@ -1,4 +1,4 @@
-
+import React from "react"
 
 const Footer = () => <footer className="page-footer font-small ">
     <div className="container text-center text-md-left">

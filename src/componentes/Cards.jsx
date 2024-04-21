@@ -1,4 +1,4 @@
-
+import React from "react"
 import CardTarjeta from "./CardTarjeta"
 
 import Bartolo from '../assets/perrito2.jpg'
