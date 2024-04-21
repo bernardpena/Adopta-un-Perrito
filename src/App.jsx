@@ -4,7 +4,7 @@ import Header from './componentes/Header'
 import MyCard from './componentes/MyCard'
 import Reseña from './componentes/Reseña'
 import Footer from './componentes/Footer'
-// import { Tags2 } from './componentes/Tags';
+
 import Bartolo from './assets/perrito2.jpg'
 import Messi from './assets/perrito3.jpg'
 import Gohan from './assets/perrito4.jpg'
@@ -41,7 +41,7 @@ const cards = [
     id: 4,
     title: "Princesa",
     imagen: Princesa,
-    descripcion: "Es una compañera leal y cariñosa que adora los mimos y los abrazos. !Ayuda aPrincesa a encontrar su final Feliz",
+    descripcion: "Es una compañera leal y cariñosa que adora los mimos y los abrazos. !Ayuda a Princesa a encontrar su final Feliz!",
     text: "French Bulldog",
     color: "badge text-bg-warning"
   }
@@ -60,11 +60,7 @@ function App() {
                 <MyCard title={card.title} imagen={card.imagen} descripcion={card.descripcion} text={card.text} color={card.color} />
               </div>
             ))
-            // }{
-            //   tags.map(tag => (<MyCard key={tag.id} text={tag.text} color={tag.color} />))
-            // }
           },
-
         </div>
       </div>
       <Reseña />
