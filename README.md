@@ -1,3 +1,5 @@
+No pudde solucionar el tema de Subir a gitHub pages no mostraba el contenido pero si en vs code!!
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
